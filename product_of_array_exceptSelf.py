@@ -9,8 +9,9 @@ import numpy as np
 
 def product_of_Array(nums):
     product_list=[]
+    prod=np.prod(nums)
     for item in nums:
-        product=np.prod(nums)//item
+        product=prod//item
         product_list.append(product)
     return product_list
 
