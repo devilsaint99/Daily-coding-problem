@@ -5,4 +5,5 @@ def add_to_k(list1, k):
             return 'True'
     return 'False' 
 
-print(add_to_k([13,2,3,4],7))
+
+print(add_to_k([13,10,3,4],7))
